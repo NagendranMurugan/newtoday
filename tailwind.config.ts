@@ -7,9 +7,11 @@ const config: Config = {
   ],
   darkMode: 'class',
   theme: {
-    extend: {fontFamily:{
-      "Rubik":['rubik'],
-    }},
+    extend: {
+      fontFamily: {
+        "Rubik": ['Rubik'],
+      }
+    },
   },
   plugins: [],
 };
