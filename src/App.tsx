@@ -8,41 +8,37 @@ import Div2 from './assets/Div2.png'
 import Div3 from './assets/Div3.png'
 const App: Component = () => {
   return (
-    <div class='font-Rubik'>
+    <div class='font-Rubik '>
       <div class='bg-gradient-to-r from-[#000000] to-[#DF3585] p-4'>
-      <div class='lg:flex justify-around'>
+        <div class='w-full lg:flex justify-between items-center'>
+          <div class='ml-12'>
+            <img class='' src={Logo} alt='/' />
+          </div>
+          <div class='flex gap-4 mr-10'>
             <div>
-                <img class='' src={Logo} alt='/' />
-              </div>
-              <div class='flex gap-4'>
-                <div>
-                  <button class=' text-base text-[#FFC727] w-[190.47px] rounded-3xl font-normal my-6 mx-auto md:mx-0 py-3'>Login</button>
-                </div>
-                <div>
-                  <button class='bg-[#FFC727] text-base text-[#7634BF] w-[190.47px] rounded-3xl font-normal my-6 mx-auto md:mx-0 py-3'>SignUp</button>
-                </div>
-              </div>
+              <button class=' text-base text-[#FFC727] border-2 border-yellow-300 w-[190.47px] rounded-3xl font-normal my-6 mx-auto md:mx-0 py-3'>Login</button>
             </div>
-        <div class='flex'>
-
-          <div class='lg:flex justify-around items-center w-full '>
-            <div class=''>
-              <div class='text-[#FFFFFF] flex text-8xl font-bold font-Rubik m-p-10'>A way to</div>
-              <br></br>
-              <h2 class='text-[#FFFFFF] text-8xl font-bold'>track your</h2>
-              <br></br>
-              <h3 class='text-[#FFC727] text-8xl font-bold'>Plots</h3>
-              <br></br>
-              <h6 class='text-[#FFFFFF] text-lg font-normal'>The easy way to stay on top of your<br></br>competitors, no matter where you are.</h6>
-              <button class='bg-[#7634BF] text-base text-white w-[190.47px] rounded-3xl font-normal my-6 mx-auto md:mx-0 py-3'>Download Now</button>
-            </div>
-            <div class=''>
-              <img class='w-[500px] mx-auto my-4' src={Fream} alt='/' />
+            <div>
+              <button class='bg-[#FFC727] text-base text-[#7634BF] w-[190.47px] rounded-3xl font-normal my-6 mx-auto md:mx-0 py-3'>SignUp</button>
             </div>
           </div>
         </div>
+        <div class='lg:flex justify-between items-center w-full '>
+          <div class='ml-10'>
+            <div class='text-[#FFFFFF] flex text-8xl font-bold font-Rubik m-p-10'>A way to</div>
+            <br></br>
+            <h2 class='text-[#FFFFFF] text-8xl font-bold'>track your</h2>
+            <br></br>
+            <h3 class='text-[#FFC727] text-8xl font-bold'>Plots</h3>
+            <br></br>
+            <h6 class='text-[#FFFFFF] text-lg font-normal'>The easy way to stay on top of your<br></br>competitors, no matter where you are.</h6>
+            <button class='bg-[#7634BF] text-base text-white w-[190.47px] rounded-3xl font-normal my-6 mx-auto md:mx-0 py-3'>Download Now</button>
+          </div>
+          <div class=''>
+            <img class='w-[500px] mx-auto my-4' src={Fream} alt='/' />
+          </div>
+        </div>
       </div>
-
       <div class='lg:flex justify-around items-center'>
         <div class=''>
           <img class='w-[500px] mx-auto my-4' src={Div1} alt='/' />
@@ -57,7 +53,7 @@ const App: Component = () => {
         </div>
       </div>
 
-      <div class='lg:flex justify-around items-center'>
+      <div class='lg:flex justify-around items-center bg-[#F3F5F6]'>
         <div class=''>
           <p class='text-[#9333ea] text-xl font-normal'>#2</p>
           <div class='text-[#000000] flex text-6xl font-bold'><p>Get</p><p class='text-[#7634BF]'>Enquiry</p></div>
@@ -88,7 +84,7 @@ const App: Component = () => {
         </div>
       </div>
       <div class=''>
-        <div class='h-[full] bg-[#161616] lg:flex justify-around items-center'>
+        <div class='h-full p-5 bg-[#161616] lg:flex justify-around items-center'>
           <div class='text-[#FFFFFF]'>
             <h1 class='text-6xl  font-bold'>15</h1>
             <p class='text-xl font-normal'>Team members</p>
@@ -129,19 +125,18 @@ const App: Component = () => {
       </div>
       <div class='bg-[#FFFFFF] p-4 '>
         <div class='flex flex-col justify-center'>
-          <div class='flex justify-items: start;'>
-            <div class='text-2xl text-[#263238] font-bold top-80px left-80px'>
-              <img class='' src={Lastlogo} alt='/' />
-            </div>
-          </div>
-          <div class='lg:flex justify-around items-center'>
-            <div class='flex flex-col justify-center'>
-              <h1 class='text-[#000000] text-xl font-normal'>Manage your Plots easy.</h1>
-              <br></br>
+
+          <div class='lg:flex justify-around items-center p-5'>
+            <div class=''>
+              <div class='flex mb-10'>
+                <div class='text-2xl text-[#263238] font-bold '>
+                  <img class='' src={Lastlogo} alt='/' />
+                </div>
+              </div>
+              <h1 class='text-[#000000] text-xl font-normal mb-4'>Manage your Plots easy.</h1>
               <p class=' text-[#000000] text-base font-light'>Privacy policy</p>
               <h6 class='text-[#000000] text-base font-light'>Terms & Conditions</h6>
-              <br></br>
-              <div class='flex justify-around'>
+              <div class='flex justify-evenly mt-3'>
                 <div class=' flex w-10'>
                   <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="facebook"><path d="M15.12,5.32H17V2.14A26.11,26.11,0,0,0,14.26,2C11.54,2,9.68,3.66,9.68,6.7V9.32H6.61v3.56H9.68V22h3.68V12.88h3.06l.46-3.56H13.36V7.05C13.36,6,13.64,5.32,15.12,5.32Z"></path></svg>
                 </div>
@@ -153,17 +148,15 @@ const App: Component = () => {
                 </div>
               </div>
             </div>
-            <div class='flex flex-col justify-center'>
-              <h1 class='text-[#000000] text-xl font-bold'>Subscribe to our newsletter</h1>
-              <br></br>
+            <div class='flex  flex-col justify-center'>
+              <h1 class='text-[#000000] text-xl mb-3 mt-5  font-bold'>Subscribe to our newsletter</h1>
               <div class="mb-4">
                 <label class="block text-gray-800 text-base font-light mb-2" for="Email address">
                   Email address
                 </label>
-                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="Your email address" type="text-sm font-light" placeholder="Your email address" />
+                <input class="shadow appearance-none border rounded w-[700px] py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="Your email address" type="text-sm font-light" placeholder="Your email address" />
               </div>
-              <br></br>
-              <button class='bg-[#7634BF] text-base text-white w-[133.47px] rounded-2xl font-normal my-6 mx-auto md:mx-0 py-4'>Submit</button>
+              <button class='bg-[#7634BF] text-base text-white w-[133.47px] rounded-full   font-normal my-6 mx-auto md:mx-0 py-4'>Submit</button>
             </div>
           </div>
         </div>
