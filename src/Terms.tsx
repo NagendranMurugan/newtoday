@@ -1,12 +1,9 @@
-import type { Component } from 'solid-js';
-import Lastlogo from './assets/Lastlogo.png';
-
-const Terms: Component = () => {
+const Terms = () => {
     return (
-        <div>
-            <div class='font-Rubik p-4 bg-gray-300'>
+        <div class='font-Rubik w-full h-full flex justify-center items-center'>
+            <div class=' p-4 bg-gray-300 '>
                 <div>
-                    <div class='text-[#000000] flex text-6xl font-bold'><p>Terms&</p> <p class='text-[#7634BF]'>conditions</p></div>
+                    <div class='text-[#000000] lg:flex text-6xl font-bold'><p>Terms & </p> <p class='text-[#7634BF]'> conditions</p></div>
                 </div>
                 <br />
                 <br />
@@ -71,12 +68,11 @@ const Terms: Component = () => {
                 <br />
                 <br />
                 <div>
-                    <button class='bg-[#7634BF] text-base text-white w-[190.47px] rounded-3xl font-normal my-6 mx-auto md:mx-0 py-3'>Go back to home</button>
+                    <button class='bg-[#7634BF] text-base text-white w-[190.47px] rounded-3xl font-normal my-6 mx-auto md:mx-0 py-3'><a href="/">Go back to home </a> </button>
                 </div>
                 <br />
             </div>
         </div>
     )
 }
-
 export default Terms;

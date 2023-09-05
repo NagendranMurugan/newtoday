@@ -137,8 +137,8 @@ const App = () => {
                 </div>
               </div>
               <h1 class='text-[#000000] text-xl font-normal mb-4'>Manage your Plots easy.</h1>
-              <p class=' text-[#000000] text-base font-light'>Privacy policy</p>
-              <h6 class='text-[#000000] text-base font-light'>Terms & Conditions</h6>
+              <p class=' text-[#000000] text-base font-light'> <a href='/privacy'>Privacy policy</a></p>
+              <h6 class='text-[#000000] text-base font-light'> <a href='/terms'>Terms & Conditions</a></h6>
               <div class='flex justify-evenly mt-3'>
                 <a href="https://www.facebook.com/profile.php?id=100095404340236">
                   <div class=' flex w-10'>
