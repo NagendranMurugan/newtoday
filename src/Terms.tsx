@@ -3,7 +3,7 @@ const Terms = () => {
         <div class='font-Rubik w-full h-full flex justify-center items-center'>
             <div class=' p-4 bg-gray-300 '>
                 <div>
-                    <div class='text-[#000000] lg:flex text-6xl font-bold'><p>Terms & </p> <p class='text-[#7634BF]'> conditions</p></div>
+                    <div class='text-[#000000] md:flex lg:flex text-6xl font-bold'><p>Terms & </p> <p class='text-[#7634BF]'> conditions</p></div>
                 </div>
                 <br />
                 <br />

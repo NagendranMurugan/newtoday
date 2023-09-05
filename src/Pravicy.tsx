@@ -3,7 +3,7 @@ const Privacy = () => {
         <div class='font-Rubik w-full h-full flex justify-center items-center '>
             <div class='bg-gray-300 p-4'>
                 <div class=''>
-                    <div class='text-[#000000] lg:flex text-6xl font-bold'><p>Privacy </p> <p class='text-[#7634BF]'>policy</p></div>
+                    <div class='text-[#000000] md:flex lg:flex text-6xl font-bold'><p>Privacy </p> <p class='text-[#7634BF]'>policy</p></div>
                 </div>
                 <br />
                 <br />
