@@ -1,7 +1,13 @@
+import Footer from "./Footer";
 const Privacy = () => {
     return (
-        <div class='font-Rubik w-full h-full flex justify-center items-center '>
-            <div class='bg-gray-300 p-4'>
+        <div class='font-Rubik w-full h-screen flex flex-col justify-center items-center '>
+            <header class="bg-gradient-to-r from-[#000000] to-[#DF3585] w-full max-w-5xl flex justify-center items-center">
+                <div class="h-40">
+
+                </div>
+            </header>
+            <div class=' p-2 w-full max-w-5xl h-full overflow-auto'>
                 <div class=''>
                     <div class='text-[#000000] md:flex lg:flex text-6xl font-bold'><p>Privacy </p> <p class='text-[#7634BF]'>policy</p></div>
                 </div>
@@ -65,6 +71,7 @@ const Privacy = () => {
                     <button class='bg-[#7634BF] text-base text-white w-[190.47px] rounded-3xl font-normal my-6 mx-auto md:mx-0 py-3'> <a href="/">Go back to home</a></button>
                 </div>
                 <br />
+                <Footer />
             </div>
         </div>
     )
