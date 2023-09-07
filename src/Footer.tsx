@@ -1,6 +1,7 @@
 import Lastlogo from './assets/Lastlogo.png';
-
+import { Link, useNavigate, A } from '@solidjs/router';
 function Footer() {
+  const navigate = useNavigate();
     return (
         <>
             <div class='lg:flex justify-around items-center p-2 gap-5'>
@@ -11,8 +12,8 @@ function Footer() {
                         </div>
                     </div>
                     <h1 class='text-[#000000] text-xl font-normal mb-4'>Manage your Plots easy.</h1>
-                    <p class=' text-[#000000] text-base font-light underline'> <a href='/privacy'>Privacy policy</a></p>
-                    <h6 class='text-[#000000] text-base font-light underline'> <a href='/terms'>Terms & Conditions</a></h6>
+                    <p class=' text-[#000000] text-base font-light underline' onClick={()=>navigate('./privacy')}> Privacy policy</p>
+                    <h6 class='text-[#000000] text-base font-light underline'onClick={()=>navigate('./terms')}> Terms & Conditions</h6>
                     <div class='flex justify-evenly mt-3'>
                         <a href="https://www.facebook.com/profile.php?id=100095404340236">
                             <div class=' flex w-10'>

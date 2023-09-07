@@ -47,7 +47,7 @@ const App = () => {
             <img class='w-[500px] mx-auto my-4' src={Fream} alt='/' />
           </div>
         </div>
-        <div class="fixed bottom-0 right-0 m-20 ">
+        <div class="fixed bottom-5 right-5  ">
           <div class='' onClick={openWhatsApp}>
             <img class='w-16' src={Green} alt='/' />
           </div>
